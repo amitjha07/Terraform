@@ -12,7 +12,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-north-1"
+  region = "ap-south-1"
 }
 
 resource "random_id" "rand_id" {
